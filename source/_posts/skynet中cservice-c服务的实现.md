@@ -83,3 +83,5 @@ void skynet_module_instance_signal(struct skynet_module *m, void *inst, int sign
 在logger服务的logger\_init()方法中，根据参数，可以设置输出日志到具体文件还是标准输出。如果没有带参数，则输出到标准输出。然后调用skynet\_command()注册具名服务logger，还有skynet\_callback()方法，注册回调函数到logger_cb()，这样当框架内有发给logger服务的消息的时候，就会进入logger\_cg函数进行处理，输出到文件或者标准输出。这样一个logger服务就完成了。
 
 至于具体的服务创建过程中的消息队列创建和消息分发，会在后续博文中介绍。
+
+以上内容纯属个人理解，水平有限，有很大可能理解偏差，欢迎指正：）mail:xcjlanqiu@gmail.com

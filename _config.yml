@@ -6,13 +6,13 @@
 title: SeriouslyJoy
 subtitle:
 description:
-author: C.J.
+author: xcjmine
 language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://45.32.8.34
+url: http://45.76.79.128
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -53,7 +53,7 @@ index_generator:
   order_by: -date
   
 # Category & Tag
-default_category: uncategorized
+default_category: other
 category_map:
   编程语言: program_language
   数据结构: data_structure
@@ -66,6 +66,7 @@ category_map:
   游戏开发: game_develop
   其他工具: tools
   杂项: other
+  Libevent: libevent
 tag_map:
 
 # Date / Time format
@@ -89,11 +90,11 @@ theme: maupassant
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-#- type: git
-#  repo: git@github.com:xcjmine/xcjmine.github.io.git
-#  branch: master
+  type: git
+  repo: git@github.com:xcjmine/xcjmine.github.io.git
+  branch: master
 #- type: rsync
-  type: rsync
-  host: localhost
-  user: root
-  root: /home/www.xcjmine.com/
+#  type: rsync
+#  host: localhost
+#  user: root
+#  root: /home/www.xcjmine.com/

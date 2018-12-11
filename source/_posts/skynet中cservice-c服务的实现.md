@@ -84,4 +84,3 @@ void skynet_module_instance_signal(struct skynet_module *m, void *inst, int sign
 
 至于具体的服务创建过程中的消息队列创建和消息分发，会在后续博文中介绍。
 
-以上内容纯属个人理解，水平有限，有很大可能理解偏差，欢迎指正：）mail:xcjlanqiu@gmail.com
